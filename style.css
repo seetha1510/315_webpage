@@ -1,0 +1,162 @@
+.button{
+    padding: 10px;
+    margin: 3px;
+    border:none;
+    width: 150px;
+    font-family: Alegreya;
+    font-size: 15px;
+    background-color: black;
+    color:white;
+}
+.button:hover{
+    background-color: white;
+    color:black;
+}
+
+.navigation{
+    background-color: black;
+    width:100%;
+}
+
+#moving_navg{
+    position:fixed;
+    top:0;
+}
+
+img{
+        width : 40%;
+        height : 100%;
+        float:left;
+        /* transition:0.2s; */
+}
+
+#intro{
+    float:right;
+    width:60%;
+    height:100%;
+    /* background-color:lightblue; */
+    background-color:lightgrey;
+    transition:0.6s;
+}
+
+#text{
+    text-align:center;
+    font-family:Montserrat;
+    /* font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif; */
+    font-size:45px;
+    border-style: solid;
+    padding: 100px;
+    margin:150px;
+    /* width: 40%; */
+    
+    background-color:lightgrey;
+    /* background-color:lightblue; */
+    /* color: white; */
+}
+
+/* #id{
+    padding:5px;
+} */
+
+#service_text{
+    padding: 15px;
+    width:60%; 
+    float:right;
+    padding-bottom:70px;
+    font-family: Georgia, Garamond, serif;
+    font-size:15px;
+    text-align:justify;
+}
+
+.title{
+    text-align: center;
+    font-family: Georgia, Garamond, serif;
+    font-size: 65px;
+    color:white;
+    padding-top:150px;
+    padding-bottom:130px;
+    /* background-color:#6677CC; */
+    transition:0.3s; 
+    /* position:sticky; */
+    width : 100%;   
+    /* top:45px;  */
+    /* Code taken from https://www.cssmatic.com/gradient-generator */
+    background: rgb(125,126,125); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(125,126,125,1) 5%, rgba(14,14,14,1) 47%, rgba(125,126,125,1) 85%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(125,126,125,1) 5%,rgba(14,14,14,1) 47%,rgba(125,126,125,1) 85%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(125,126,125,1) 5%,rgba(14,14,14,1) 47%,rgba(125,126,125,1) 85%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#7d7e7d',GradientType=0 ); /* IE6-9 */
+}
+
+#about_text{
+    /* padding: 15px 300px;
+    padding-bottom:70px; */
+    padding:25px;
+    float:right;
+    width:60%;
+    height:40%;
+    font-family: Georgia, Garamond, serif;
+    font-size:15px;
+    text-align:justify;
+    /* background-color:#F2AA4CFF; */
+}
+#about_box{
+    background-color:lightblue;
+}
+
+.port_qual_titles{
+    font-family: Georgia, Garamond, serif;
+    font-size:25px;
+    padding:25px;
+    font-weight:bold;
+}
+.portfolio_text{
+    font-family: Georgia, Garamond, serif;
+    font-size:15px;
+    padding:0 25px;
+    width: 50%;
+    text-align:justify;
+}
+
+/* .portfolio_image{
+    width: 25%;
+    height:
+
+}
+#id_two{
+    float:right;
+} */
+
+#portfolio_spacing{
+    padding-bottom: 40px;
+}
+
+iframe {
+    display: block;
+    border-style:none;
+}
+
+
+.qual_titles{
+    font-family: Georgia, Garamond, serif;
+    font-size:18px;
+    /* padding:25px; */
+    padding-left:30px;
+}
+
+.qual_text{
+    font-family: Georgia, Garamond, serif;
+    font-size:16px;
+    /* padding:25px; */
+    padding-left:60px;
+}
+
+.about_titles{
+    font-family: Georgia, Garamond, serif;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.table_one{
+    float:left;
+}
